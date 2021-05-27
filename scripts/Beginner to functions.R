@@ -24,3 +24,5 @@ columnmean <- function(y, removeNA = TRUE){
   }
   means
 }
+data <- read.csv("data/environment.csv")
+columnmean(data)
