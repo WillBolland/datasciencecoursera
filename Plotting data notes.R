@@ -31,3 +31,9 @@ with(airquality, {
 
 #lm: makes a linear model between variables
 #abline(linearmodelname): adds the line for the linear model
+
+#**making a pdf**
+pdf(file = "pdfname")
+with(data, plot(variable1, variable 2))
+title(main = "insertitle")
+dev.off()
