@@ -37,3 +37,5 @@ pdf(file = "pdfname")
 with(data, plot(variable1, variable 2))
 title(main = "insertitle")
 dev.off()
+#or
+dev.copy2pdf()
